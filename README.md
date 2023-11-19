@@ -4,7 +4,7 @@ It is always important to read data incrementally when dealing with relational d
 <br>
 
 ### Pipeline
-![alt text]()
+![alt text](https://github.com/MinThuraZaw/PySpark-ETL-with-MySQL-in-Databricks/blob/main/images/pyspark_mysql.jpg)
 
 <br>
 
