@@ -20,6 +20,6 @@ It is always important to read data incrementally when dealing with relational d
 <br>
 
 ### Development Steps
-1) For option 1, add updated_at column in the source MySQL table if it does not have one.
-2) For option 2, setup watermark table either in source database or delta table in Databricks.
+1) For example 1, add updated_at, deleted_at column in the source MySQL table if it does not have one.
+2) For example 2, setup watermark table either in source database or delta table in Databricks.
 3) Read the table incremental and update to delta table in Databricks, process and write to analytical MySQL table.
