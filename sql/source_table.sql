@@ -4,7 +4,6 @@ CREATE TABLE demo_database.members (
   `name` varchar(255),
   `email` varchar(255),
   `phone` varchar(20),
-  `favorite_store_id` int DEFAULT NULL,
   `last_purchase_date` date DEFAULT NULL,
   `member_type_rfm` varchar(20),
   `member_category` varchar(20),
